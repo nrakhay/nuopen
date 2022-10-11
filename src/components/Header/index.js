@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import Logo from "../../assets/logo";
 
 function Header() {
@@ -9,21 +9,20 @@ function Header() {
   // };
 
   return (
-    <div>
-      <nav>
-        <div className="header-container">
-          <Logo />
+    <nav>
+      <div className="header-container">
+        <Logo />
 
-          <div className="menu">
-            <a className="info" href="#">
-              Info Channel
-            </a>
-            <a className="participants" href="#">
-              Participants
-            </a>
-          </div>
+        <div className="menu">
+          <a className="info" href="#">
+            Info Channel
+          </a>
+          <a className="participants" href="#">
+            Participants
+          </a>
+        </div>
 
-          {/* <button
+        {/* <button
         className={isClicked ? "hamburger is-active" : "hamburger"}
         onClick={handleClick}
       >
@@ -31,9 +30,8 @@ function Header() {
         <span></span>
         <span></span>
       </button> */}
-        </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 }
 

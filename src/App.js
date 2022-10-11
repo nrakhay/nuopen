@@ -12,9 +12,11 @@ function App() {
       <Header />
       <Hero />
 
-      <Schedule />
-      <FAQ />
-      <Sponsors />
+      <div className="main-info-container">
+        <Schedule />
+        <FAQ />
+        <Sponsors />
+      </div>
       <Footer />
     </div>
   );
