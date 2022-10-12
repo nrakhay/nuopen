@@ -26,8 +26,6 @@ a {
 p {
   text-align: center;
   display: block;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
 }
 
 h1 {
@@ -196,7 +194,7 @@ nav {
   }
 }
 
-/* schedule section */
+/* Schedule section */
 
 .schedule {
   height: 30vh;
@@ -205,4 +203,39 @@ nav {
 .schedule-date {
   color: white;
   opacity: 0.5;
+}
+
+/* FAQ section */
+
+.faq-element {
+  max-width: 1000px;
+  line-height: 24px;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #c4c4c9;
+  cursor: pointer;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question h3 {
+  color: var(--red);
+  font-size: 1.25rem;
+}
+
+.answer p {
+  color: #c4c4c9;
+  padding-top: 1rem;
+  line-height: 1.6;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.answer p a {
+  color: #c4c4c9;
+  text-decoration: underline;
 }

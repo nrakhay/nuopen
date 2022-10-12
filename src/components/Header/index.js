@@ -14,7 +14,12 @@ function Header() {
         <Logo />
 
         <div className="menu">
-          <a className="info" href="#">
+          <a
+            className="info"
+            href="https://t.me/nuopen"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Info Channel
           </a>
           <a className="participants" href="#">
